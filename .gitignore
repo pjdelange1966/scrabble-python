@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# PyInstaller
+*.spec.bak
+
+# Editors / OS
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+Thumbs.db
+desktop.ini
+
+# Lokale Claude Code-instellingen (persoonlijk)
+.claude/settings.local.json
+
+# Woordenlijsten: niet committen tenzij de licentie dat toestaat
+data/*.txt
+!data/voorbeeld-woorden.txt
